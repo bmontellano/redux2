@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../index.css';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import { addReminder } from '../actions';
 
 
@@ -41,7 +40,7 @@ class App extends Component {
         <div className="title">
           Reminder Pro
         </div>
-        <div className="form-inline">
+        <div className="form-inline reminder-form">
           <div className="form-group">
             <input
               className="form-control"

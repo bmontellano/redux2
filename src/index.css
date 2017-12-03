@@ -1,0 +1,19 @@
+.App {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+
+input {
+  margin: 5px;
+}
+
+.reminder-form {
+  padding: 5px;
+}
