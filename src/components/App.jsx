@@ -35,8 +35,7 @@ class App extends Component {
             return (
               <li key={reminder.id} className="list-group-item">
                 <div className='list-item'>
-                  <div>{reminder.text}</div>
-                  <div><em>{moment(new Date(reminder.dueDate)).fromNow()}</em></div>
+                  <div>{reminder.text}  &nbsp; - &nbsp; <em>{moment(new Date(reminder.dueDate)).fromNow()}</em> </div>
                 </div>
                 <div
                   className='list-item delete-button'
@@ -86,7 +85,9 @@ class App extends Component {
           >
             <i>Clear Reminders</i>
         </div>
+        <br/>
       </div>
+
     )
   }
 }

@@ -3,11 +3,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rebeccapurple;
+}
+
+html {
+  background: yellow;
 }
 
 .title {
   text-align: center;
   font-size: 28px;
+  color: white;
 }
 
 input {
