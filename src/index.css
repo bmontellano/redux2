@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight|Monoton');
+
 .App {
   padding-top: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: rebeccapurple;
+  font-family: 'Limelight', cursive;
 }
 
 html {
@@ -11,9 +14,11 @@ html {
 }
 
 .title {
+  font-family: 'Spectral SC', serif;
   text-align: center;
   font-size: 28px;
   color: white;
+  font-family: 'Monoton', cursive;
 }
 
 input {
